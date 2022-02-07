@@ -1,0 +1,8 @@
+:root {
+}
+
+.visuallyhidden {
+  @apply h-px overflow-hidden absolute whitespace-nowrap w-px;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+}
